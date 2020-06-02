@@ -2,14 +2,14 @@ import {request} from './myrequest';
 
 export function getHomeMultidata(){
   return request({
-    url: '/home/multidata'
+    url: '后端路由'
   })
 }
 
 
 export function getHomeGoods(type,page){
   return request({
-    url: '/home/data',
+    url: '后端路由',
     params: {
       type,
       page
