@@ -2,13 +2,13 @@ import {request} from './request'
 
 export function getLeftInfo(){
   return request({
-    url: '/category'
+    url: '后端路由'
   })
 }
 
 export function getRightInfo(maitKey){
   return request({
-    url: '/subcategory',
+    url: '后端路由',
     params: {
       maitKey: maitKey
     }
