@@ -2,7 +2,7 @@ import { request } from "./request";
 
 export function getGoodsInfo(iid) {
   return request({
-    url: "/detail",
+    url: "后端路由",
     params: {
       iid
     }
@@ -11,7 +11,7 @@ export function getGoodsInfo(iid) {
 
 export function getRecommendInfo() {
   return request({
-    url: "/recommend"
+    url: "后端路由"
   });
 }
 
